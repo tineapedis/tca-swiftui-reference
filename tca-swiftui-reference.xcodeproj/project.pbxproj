@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723DC27F26E37C4200A24F0C /* cafferow_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723DC27E26E37C4200A24F0C /* cafferow_iosApp.swift */; };
-		723DC28126E37C4200A24F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723DC28026E37C4200A24F0C /* ContentView.swift */; };
+		723DC27F26E37C4200A24F0C /* TcaSwiftuiReferenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723DC27E26E37C4200A24F0C /* TcaSwiftuiReferenceApp.swift */; };
+		723DC28126E37C4200A24F0C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723DC28026E37C4200A24F0C /* RootView.swift */; };
 		723DC28326E37C4400A24F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723DC28226E37C4400A24F0C /* Assets.xcassets */; };
 		723DC28626E37C4400A24F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723DC28526E37C4400A24F0C /* Preview Assets.xcassets */; };
 		723DC29626E3D78900A24F0C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 723DC29526E3D78900A24F0C /* ComposableArchitecture */; };
@@ -16,8 +16,8 @@
 
 /* Begin PBXFileReference section */
 		723DC27B26E37C4200A24F0C /* tca-swiftui-reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tca-swiftui-reference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		723DC27E26E37C4200A24F0C /* cafferow_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafferow_iosApp.swift; sourceTree = "<group>"; };
-		723DC28026E37C4200A24F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		723DC27E26E37C4200A24F0C /* TcaSwiftuiReferenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcaSwiftuiReferenceApp.swift; sourceTree = "<group>"; };
+		723DC28026E37C4200A24F0C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		723DC28226E37C4400A24F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		723DC28526E37C4400A24F0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		723DC28726E37C4400A24F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,8 +54,8 @@
 		723DC27D26E37C4200A24F0C /* tca-swiftui-reference */ = {
 			isa = PBXGroup;
 			children = (
-				723DC27E26E37C4200A24F0C /* cafferow_iosApp.swift */,
-				723DC28026E37C4200A24F0C /* ContentView.swift */,
+				723DC27E26E37C4200A24F0C /* TcaSwiftuiReferenceApp.swift */,
+				723DC28026E37C4200A24F0C /* RootView.swift */,
 				723DC28226E37C4400A24F0C /* Assets.xcassets */,
 				723DC28726E37C4400A24F0C /* Info.plist */,
 				723DC28426E37C4400A24F0C /* Preview Content */,
@@ -146,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723DC28126E37C4200A24F0C /* ContentView.swift in Sources */,
-				723DC27F26E37C4200A24F0C /* cafferow_iosApp.swift in Sources */,
+				723DC28126E37C4200A24F0C /* RootView.swift in Sources */,
+				723DC27F26E37C4200A24F0C /* TcaSwiftuiReferenceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
