@@ -9,8 +9,24 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                Section(header: Text("The Composable Architecture"), content: {
+                    HStack {
+                        Image(systemName: "eyes")
+                        Text("概要")
+                    }
+                })
+                Section(header: Text("SwiftUI"), content: {
+                    HStack {
+                        Image(systemName: "eyes")
+                        Text("概要")
+                    }
+                })
+            }
+            .navigationBarTitle("TCA&SwiftUI Reference App", displayMode: .inline)
+        }
+
     }
 }
 
